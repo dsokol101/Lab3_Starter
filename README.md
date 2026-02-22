@@ -20,7 +20,7 @@ In this lab, you will use the C++ Standard Library container `vector<string>` in
    - Sort the vector
    - Call the custom `myswap` function when needed
 
-3. Optional: Implement all functions using the `std::array<>` STL class instead of `vector<string>`.
+3. Optional: In a separate file, implement all functions using the `std::array<>` STL class.
 
 ## Compiling and Running
 
