@@ -7,7 +7,6 @@
 #include <iostream>
 #include <cstdlib>
 
-// no size necessary for vector: const size_t ARRSIZE = 100;
 void print(const std::vector<std::string>& names, std::string filename);
 void load(std::vector<std::string>& names, std::string filename);
 void sort_vec(std::vector<std::string>& names);

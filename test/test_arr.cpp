@@ -1,6 +1,6 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "../include/doctest.h"
-#include "../include/lab2a.h"
+#include "../include/lab3_array.h"
 using namespace std;
 // Explicit instantiation for the specific type you're using:
 

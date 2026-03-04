@@ -19,16 +19,6 @@ int load(array<string, ARRSIZE>& names, string filename)
 
 void sort_arr(array<string, ARRSIZE>& names, int numElts) 
 {
-    for (int i = 0; i < numElts - 1; i++)
-    {
-        for (int j = i + 1; j < numElts; j++)
-        {
-            if (names[i] > names[j])
-            {
-                swap(names[i], names[j]);
-            }
-        }
-    }
 }
 
 /*************************************************************************************** 

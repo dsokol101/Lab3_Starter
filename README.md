@@ -41,7 +41,7 @@ This command will:
 
 ## Files Included
 
-- app.cpp — functions tha tyou are writing for homework
+- app.cpp — functions that you are writing for homework
 - test.cpp — Unit tests
 - lab3_main.cpp — Optional main for testing purposes
 - lab3_array.cpp — Optional implementation using `std::array<>`

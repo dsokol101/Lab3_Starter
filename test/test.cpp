@@ -1,12 +1,14 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "../include/doctest.h"
 #include "../include/lab3.h"
-
+#include <vector>
+#include <string>
+using namespace std;
 
 TEST_CASE("Testing swap with strings") {
     string str1 = "hello";
     string str2 = "world";
-    swap(str1, str2);
+    myswap(str1, str2);
     CHECK(str1 == "world");
     CHECK(str2 == "hello");
 }

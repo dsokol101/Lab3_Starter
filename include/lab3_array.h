@@ -5,9 +5,9 @@
 #include <array>
 
 const size_t ARRSIZE = 100;
-//void print(const array<string, ARRSIZE>& names, int numElts);
-//int load(array<string, ARRSIZE>& names, string filename);
-//void sort_arr(array<string, ARRSIZE>& names, int numElts);    
+void print(const array<string, ARRSIZE>& names, int numElts);
+int load(array<string, ARRSIZE>& names, string filename);
+void sort_arr(array<string, ARRSIZE>& names, int numElts);    
 template <typename T>
 void myswap(T &a, T &b)
 {
